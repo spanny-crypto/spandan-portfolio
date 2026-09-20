@@ -1,0 +1,93 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  :root {
+    --background: #FAFAFA;
+    --foreground: #1A1A1A;
+  }
+
+  body {
+    @apply bg-bg text-text antialiased;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+
+  a {
+    @apply text-text underline-offset-4 hover:underline transition-colors;
+  }
+
+  button {
+    @apply transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+  }
+}
+
+@layer components {
+  .container-main {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .heading-1 {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight;
+  }
+
+  .heading-2 {
+    @apply text-3xl sm:text-4xl font-bold tracking-tight;
+  }
+
+  .heading-3 {
+    @apply text-2xl sm:text-3xl font-semibold tracking-tight;
+  }
+
+  .text-muted {
+    @apply text-text-secondary;
+  }
+
+  .text-subtle {
+    @apply text-text-tertiary;
+  }
+
+  .border-subtle {
+    @apply border border-border;
+  }
+
+  .bg-card {
+    @apply bg-bg-secondary border-subtle rounded-lg;
+  }
+
+  .button-primary {
+    @apply px-6 py-3 bg-accent text-white rounded-lg font-medium hover:opacity-90 transition-opacity;
+  }
+
+  .button-secondary {
+    @apply px-6 py-3 border-subtle rounded-lg font-medium hover:bg-bg-secondary transition-colors;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  @apply bg-accent text-white;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-text-tertiary rounded-lg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-text-secondary;
+}
