@@ -58,7 +58,7 @@ export default function Footer({ social }: FooterProps) {
           <div className="space-y-3">
             <p className="text-text-secondary">Want to collaborate or chat?</p>
             <a
-              href="mailto:priyankanilesh2011@gmail.com"
+              href="mailto:6Falcon.business@gmail.com"
               className="button-secondary inline-flex items-center gap-2"
             >
               <Mail size={18} /> Send me an email

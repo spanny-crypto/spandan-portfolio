@@ -263,6 +263,12 @@ export const portfolioData = {
       type: 'achievement',
     },
     {
+      year: 2023,
+      title: 'School Shark Tank',
+      description: 'Pitched startup idea to school director',
+      type: 'achievement',
+    },
+    {
       year: 2024,
       title: 'Building Falcon OS',
       description: 'Started building AI Operating System for founders with multi-agent architecture',
@@ -402,6 +408,19 @@ export const portfolioData = {
     instagram: 'https://instagram.com/priyankanilesh',
   },
 
+  challenge: {
+    title: '🎯 The Challenge',
+    goal: 'Build a Million Dollar SaaS Before Graduation',
+    timeline: '1 Year Left',
+    description: 'Before I complete school, I\'m building a SaaS product that will generate $1 million in revenue. This is not a side project. This is my focus. This is my commitment to myself.',
+    details: [
+      'Product-market fit achieved',
+      'Profitable unit economics',
+      '$1M ARR by graduation',
+      'Real customers, real revenue, real impact',
+    ],
+  },
+
   about: `I became obsessed with building before I finished school.
 
 When I encountered something I didn't know how to do, I learned it. When I couldn't find a tool that solved a problem, I tried to build one. When an idea failed, I moved to the next experiment.
@@ -410,5 +429,7 @@ I don't wait for university, a degree, or a job to give me permission to start. 
 
 I'm not interested in being called a "young entrepreneur" or a "future founder." I'm building now. The future is just more of this.
 
-What matters: shipping, learning, iterating, shipping again.`,
+What matters: shipping, learning, iterating, shipping again.
+
+Right now, I have one year left before graduation. I'm building a million-dollar SaaS. Not tomorrow. Not after college. Now. This year. That's the commitment.`,
 };
