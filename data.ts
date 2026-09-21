@@ -39,7 +39,7 @@ export const portfolioData = {
       tagline: 'Personal Memory System',
       description: 'A local-first memory layer across your digital life. Useful context remembered and retrieved without manual organization.',
       fullDescription: 'Mimo is an invisible memory system designed to capture, organize, and retrieve important information from your digital life without requiring explicit effort. It learns from your behavior, correlates across platforms, and surfaces relevant context when you need it. Built around the concept of "Memory Atoms"—atomic units of useful information that can be composed into larger understanding.',
-      status: 'BUILDING',
+      status: 'DEPLOYED',
       color: 'from-indigo-900 to-indigo-700',
       icon: '🧠',
       features: [
@@ -60,7 +60,7 @@ export const portfolioData = {
       tagline: 'Family Nutrition Intelligence',
       description: 'Families eat together, but health is individual. One meal produces different recommendations based on each family member\'s goals and context.',
       fullDescription: 'FamilyHealth AI transforms how families approach nutrition. While families share meals, each member has unique health goals and contexts. The platform analyzes a single meal and generates personalized nutrition insights for each family member. A meal that\'s perfect protein for the athlete might be a carb-heavy choice for the diabetic, and a calcium-rich option for the teenager. This is nutrition intelligence built for how families actually work.',
-      status: 'BUILDING',
+      status: 'DEPLOYED',
       color: 'from-emerald-900 to-emerald-700',
       icon: '🍽️',
       features: [
@@ -82,7 +82,7 @@ export const portfolioData = {
       tagline: 'Safety and Evidence Organization',
       description: 'For people dealing with online harassment, extortion, and abuse. Organize evidence into structured documentation.',
       fullDescription: 'Haven is a privacy-first platform for victims of sextortion, intimate-image threats, and online blackmail. The product helps organize scattered evidence (screenshots, messages, timeline) into structured, police-report-ready documentation. It\'s designed to feel calm, trustworthy, and serious—not sensational. Evidence stays on-device by default. Local Gemma AI provides optional assistance without requiring cloud submission.',
-      status: 'BUILDING',
+      status: 'DEPLOYED',
       color: 'from-blue-900 to-blue-700',
       icon: '🛡️',
       features: [
@@ -106,7 +106,7 @@ export const portfolioData = {
       tagline: 'Competitive Intelligence Software',
       description: 'Watch for meaningful changes in competitors: pricing, products, hiring, messaging, positioning. Signal → Correlation → Strategy Shift → Action.',
       fullDescription: 'Strategy Shift Radar is a competitive intelligence platform that automatically monitors and correlates signals across the competitive landscape. Instead of drowning in data, founders see patterns: when a competitor shifts pricing, launches a new product, hires aggressively in a new domain, and changes messaging—these correlate into a strategy shift you should know about. The workflow is clean: Signal detection → Pattern correlation → Strategy shift identification → Recommended actions.',
-      status: 'BUILDING',
+      status: 'DEPLOYED',
       color: 'from-orange-900 to-orange-700',
       icon: '📡',
       features: [
