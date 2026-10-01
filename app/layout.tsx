@@ -5,7 +5,7 @@ import './globals.css';
 
 const title = 'Spandan Parakh - Student, Builder, Founder | 6Falcon';
 const description =
-  'Spandan Parakh is a student, builder and founder of 6Falcon Technologies. Winner of Kumbhathon 2023, creator of Falcon OS, Mimo, Haven and the Arkh language. Currently working on Zenith.';
+  'Spandan Parakh is a student, builder and founder of 6Falcon Technologies. Winner of Kumbhathon 2023, creator of Falcon OS, Mimo, Haven and the Arkh language. Currently working on Janus.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   authors: [{ name: siteConfig.fullName, url: siteConfig.url }],
   creator: siteConfig.fullName,
   keywords: [
-    'Spandan Parakh', 'Spandan', '6Falcon', '6Falcon Technologies', 'Zenith', 'Falcon OS', 'Mimo',
+    'Spandan Parakh', 'Spandan', '6Falcon', '6Falcon Technologies', 'Janus', 'Falcon OS', 'Mimo',
     'Haven', 'KumbhOS', 'Kumbhathon winner', 'Arkh programming language', 'student founder',
     'young founder India', 'portfolio',
   ],

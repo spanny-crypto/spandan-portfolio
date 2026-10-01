@@ -9,7 +9,7 @@ export const siteConfig = {
 export const portfolioData = {
   now: {
     label: 'Right now',
-    text: 'Working on Zenith',
+    text: 'Working on Janus',
   },
 
   hero: {
@@ -22,11 +22,11 @@ export const portfolioData = {
 
   projects: [
     {
-      id: 'zenith',
-      name: 'Zenith',
+      id: 'janus',
+      name: 'Janus',
       tagline: 'Currently building',
-      description: 'Working on Zenith.',
-      fullDescription: 'Spandan is currently working on Zenith.',
+      description: 'Working on Janus.',
+      fullDescription: 'Spandan is currently working on Janus.',
       status: 'BUILDING',
       color: 'from-slate-900 to-slate-700',
       icon: '🚀',
@@ -332,8 +332,8 @@ export const portfolioData = {
     },
     {
       year: 2026,
-      title: 'Working on Zenith',
-      description: 'Currently building Zenith.',
+      title: 'Working on Janus',
+      description: 'Currently building Janus.',
       type: 'building',
     },
     {

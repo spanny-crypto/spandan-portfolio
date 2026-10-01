@@ -19,7 +19,7 @@ export function buildJsonLd() {
     email: `mailto:${site.email}`,
     jobTitle: 'Founder',
     description:
-      'Student, builder and founder of 6Falcon Technologies. Currently working on Zenith.',
+      'Student, builder and founder of 6Falcon Technologies. Currently working on Janus.',
     knowsAbout: [
       'Software development',
       'Artificial intelligence',
@@ -61,7 +61,7 @@ export function buildJsonLd() {
     '@id': id(p.id),
     name: p.name,
     alternateName: p.tagline,
-    description: p.id === 'zenith' ? 'Spandan is currently working on Zenith.' : p.fullDescription,
+    description: p.id === 'janus' ? 'Spandan is currently working on Janus.' : p.fullDescription,
     applicationCategory: 'BusinessApplication',
     operatingSystem: p.tech.includes('Android') ? 'Android' : 'Web',
     creator: { '@id': id('person') },
@@ -85,9 +85,9 @@ export function buildJsonLd() {
     '@id': id('faq'),
     mainEntity: [
       ['Who is Spandan Parakh?', `Spandan Parakh is a student, builder and founder of 6Falcon Technologies. ${d.hero.subtitle}`],
-      ['What is Spandan working on right now?', 'Spandan is currently working on Zenith.'],
+      ['What is Spandan working on right now?', 'Spandan is currently working on Janus.'],
       ['What are Spandan Parakh\'s achievements?', d.achievements.map((a) => `${a.title} (${a.date}): ${a.description}`).join(' ')],
-      ['What has Spandan built?', d.projects.filter((p) => p.id !== 'zenith').map((p) => `${p.name} (${p.tagline})`).join(', ') + `, and the ${d.programmingLanguage.name} programming language.`],
+      ['What has Spandan built?', d.projects.filter((p) => p.id !== 'janus').map((p) => `${p.name} (${p.tagline})`).join(', ') + `, and the ${d.programmingLanguage.name} programming language.`],
       ['How can I contact Spandan Parakh?', `Email ${site.email}.`],
     ].map(([q, a]) => ({
       '@type': 'Question',
@@ -130,15 +130,15 @@ export function buildJsonLd() {
 export function buildLlmsTxt(full: boolean) {
   const L: string[] = [];
   L.push(`# ${site.fullName}`, '');
-  L.push(`> ${d.hero.title} Founder of 6Falcon Technologies. Currently working on Zenith.`, '');
+  L.push(`> ${d.hero.title} Founder of 6Falcon Technologies. Currently working on Janus.`, '');
   L.push(`Canonical site: ${site.url}`, `Contact: ${site.email}`, '');
-  L.push('## Current status', '', '- Working on Zenith.', '');
+  L.push('## Current status', '', '- Working on Janus.', '');
   L.push('## Achievements', '');
   d.achievements.forEach((a) => L.push(`- ${a.title} (${a.date}): ${a.description}`));
   L.push('', '## Projects', '');
   d.projects.forEach((p) => {
-    L.push(full && p.id !== 'zenith' ? `### ${p.name} - ${p.tagline} [${p.status}]` : `- ${p.name} [${p.status}]: ${p.id === 'zenith' ? 'Currently working on Zenith.' : p.description}`);
-    if (full && p.id !== 'zenith') {
+    L.push(full && p.id !== 'janus' ? `### ${p.name} - ${p.tagline} [${p.status}]` : `- ${p.name} [${p.status}]: ${p.id === 'janus' ? 'Currently working on Janus.' : p.description}`);
+    if (full && p.id !== 'janus') {
       L.push('', p.fullDescription, '');
       L.push(`Features: ${p.features.join('; ')}`, `Tech: ${p.tech.join(', ')}`);
       if (p.links?.website) L.push(`Website: ${p.links.website}`);

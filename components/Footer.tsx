@@ -71,7 +71,7 @@ export default function Footer({ social }: FooterProps) {
               © {new Date().getFullYear()} Spandan Parakh. Built with curiosity and shipped with code.
             </p>
             <p className="text-text-tertiary text-sm mt-2">
-              Currently working on <span className="font-semibold text-text">Zenith</span> at <span className="font-semibold text-text">6Falcon</span>.
+              Currently working on <span className="font-semibold text-text">Janus</span> at <span className="font-semibold text-text">6Falcon</span>.
             </p>
           </div>
         </motion.div>
