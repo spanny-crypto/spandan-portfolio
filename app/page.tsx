@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main className="bg-bg">
       <Navigation />
-      <Hero data={portfolioData.hero} />
+      <Hero data={portfolioData.hero} now={portfolioData.now} />
       <Challenge challenge={portfolioData.challenge} />
       <Projects projects={portfolioData.projects} />
       <ProgrammingLanguage data={portfolioData.programmingLanguage} />
