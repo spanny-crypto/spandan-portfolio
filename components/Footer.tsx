@@ -68,10 +68,10 @@ export default function Footer({ social }: FooterProps) {
           {/* Copyright */}
           <div className="pt-8 border-t border-border">
             <p className="text-text-tertiary text-sm">
-              © 2024 Spandan. Built with curiosity and shipped with code.
+              © {new Date().getFullYear()} Spandan Parakh. Built with curiosity and shipped with code.
             </p>
             <p className="text-text-tertiary text-sm mt-2">
-              Currently building at <span className="font-semibold text-text">6Falcon</span>.
+              Currently working on <span className="font-semibold text-text">Janus</span> at <span className="font-semibold text-text">6Falcon</span>.
             </p>
           </div>
         </motion.div>

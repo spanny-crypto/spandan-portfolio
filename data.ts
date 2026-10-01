@@ -1,4 +1,17 @@
+export const siteConfig = {
+  url: 'https://spandanparakh.netlify.app',
+  fullName: 'Spandan Parakh',
+  email: '6Falcon.business@gmail.com',
+  photo: '/spandan.jpg',
+  ogImage: '/og-image.png',
+};
+
 export const portfolioData = {
+  now: {
+    label: 'Right now',
+    text: 'Working on Janus',
+  },
+
   hero: {
     name: 'Spandan',
     title: 'Student. Builder. Founder.',
@@ -8,6 +21,19 @@ export const portfolioData = {
   },
 
   projects: [
+    {
+      id: 'janus',
+      name: 'Janus',
+      tagline: 'Currently building',
+      description: 'Working on Janus.',
+      fullDescription: 'Spandan is currently working on Janus.',
+      status: 'BUILDING',
+      color: 'from-slate-900 to-slate-700',
+      icon: '🚀',
+      features: [] as string[],
+      tech: [] as string[],
+      links: {} as { website?: string; github?: string },
+    },
     {
       id: 'falcon-os',
       name: 'Falcon OS',
@@ -303,6 +329,12 @@ export const portfolioData = {
       title: 'Programming language design',
       description: 'Started designing Arkh - a language for rapid prototyping and builder mindset',
       type: 'experiment',
+    },
+    {
+      year: 2026,
+      title: 'Working on Janus',
+      description: 'Currently building Janus.',
+      type: 'building',
     },
     {
       year: 2026,

@@ -34,7 +34,7 @@ export default function Projects({ projects }: ProjectsProps) {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: idx * 0.1 }}
             className="bg-card p-6 rounded-lg cursor-pointer hover:bg-bg-tertiary transition-colors"
-            onClick={() => setExpandedId(expandedId === project.id ? null : project.id)}
+            onClick={() => project.features?.length && setExpandedId(expandedId === project.id ? null : project.id)}
           >
             <div className="flex justify-between items-start mb-4">
               <div className="flex items-start gap-3">
@@ -59,7 +59,7 @@ export default function Projects({ projects }: ProjectsProps) {
               {project.description}
             </p>
 
-            {expandedId === project.id && (
+            {expandedId === project.id && project.features?.length > 0 && (
               <motion.div
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
